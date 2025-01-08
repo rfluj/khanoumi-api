@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### 5. Run Migrations
 Ensure the necessary tables (`skincare_products` and `errors`) are created:
 ```bash
-python database/migrations.py
+python database/db.py
 ```
 
 ### 6. Start the Server
