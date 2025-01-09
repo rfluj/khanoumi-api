@@ -175,7 +175,7 @@ def create_product(connection, product_data):
         cursor = connection.cursor()
         query = """
         INSERT INTO skincare_products (url, name, discountPrice, basePrice, nameFa, nameEn, imageUrl)
-        VALUES (%s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s)
         """
         cursor.execute(query, (
             product_data["url"],
